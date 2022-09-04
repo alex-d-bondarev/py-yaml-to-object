@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "py-yaml-to-object"
+version = "0.1.0"
+description = "Experiment with yaml to object transformation"
+license = "MIT"
+authors = ["Oleksandr Bondarev <alex.d.bondarev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "py_yaml_to_object"}]
+repository = "https://github.com/alex-d-bondarev/py-yaml-to-object"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^=7.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
