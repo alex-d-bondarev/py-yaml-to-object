@@ -1,3 +1,6 @@
+import yaml
+
+
 class Struct(object):
     def __init__(self, data):
         for name, value in data.items():
@@ -17,3 +20,9 @@ class ObjectConverter:
 
     def from_dict(self, a_dict):
         return Struct(a_dict)
+
+    def from_yaml(self, yaml_path):
+        the_dict = None
+        with open(yaml_path) as file:
+            the_dict = yaml.safe_load(file)
+        return self.from_dict(the_dict)
