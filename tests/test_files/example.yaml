@@ -1,0 +1,7 @@
+root:
+  branch:
+    node: node value
+    list:
+      - value 1
+      - value 2
+      - value 3

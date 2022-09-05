@@ -1,4 +1,4 @@
-from py_yaml_to_object.dict_to_obj import ObjectConverter
+from src.dict_to_obj import ObjectConverter
 
 
 def test_simple_dict_to_obj():

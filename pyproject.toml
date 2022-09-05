@@ -5,13 +5,14 @@ description = "Experiment with yaml to object transformation"
 license = "MIT"
 authors = ["Oleksandr Bondarev <alex.d.bondarev@gmail.com>"]
 readme = "README.md"
-packages = [{include = "py_yaml_to_object"}]
+packages = [{include = "src"}]
 repository = "https://github.com/alex-d-bondarev/py-yaml-to-object"
 
 
 [tool.poetry.dependencies]
-python = "^3.10"
-pytest = "^=7.1.0"
+python = "~3.10"
+pytest = "~7.1.0"
+PyYAML = "==6.0"
 
 
 [build-system]
